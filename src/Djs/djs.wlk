@@ -8,7 +8,7 @@ object dixon {
 
 object marcelDettmann {
 	method pasarMusica(persona){
-		persona.restarEnergia(persona.energia)
+		persona.restarEnergia(persona.energia())
 		persona.sumDiversion(1000) 
 	}
 }
@@ -18,3 +18,4 @@ object tommyMunioz {
 		persona.restarEnergia(80)
 	}
 }
+
