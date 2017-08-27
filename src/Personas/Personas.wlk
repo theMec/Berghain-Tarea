@@ -9,12 +9,25 @@ object vonLukaz{
 		return color
 	}
 	
-	method mayor(){
-		return False
+	method energia(){
+		return energia
 	}
+	
+	method mayor(){
+		return false
+	}
+	
+	method restarEnergia(x){
+		energia-=x
+	}
+	
+	method sumDiversion(x){
+		 diversion+=x
+	}
+	
 }
 
-object Biarker{
+object biarker{
 	//var edad = 22
 	var color = 'negro'
 	var energia = 140
@@ -24,12 +37,25 @@ object Biarker{
 		return color
 	}
 	
-		method mayor(){
-		return True
+			method energia(){
+		return energia
 	}
+		method mayor(){
+		return true
+	}
+
+	
+	method restarEnergia(x){
+		energia-=x
+	}
+	
+	method sumDiversion(x){
+		 diversion+=x
+	}
+	
 }
 
-object Gonzen{
+object gonzen{
 	//var edad = 33
 	var color = 'negro'
 	var energia = 90
@@ -39,8 +65,22 @@ object Gonzen{
 		return color
 	}
 	
-	method mayor(){
-		return True
+		method energia(){
+		return energia
 	}
+	
+	method mayor(){
+		return true
+	}
+
+	
+	method restarEnergia(x){
+		energia-=x
+	}
+	
+	method sumDiversion(x){
+		 diversion+=x
+	}
+	
 }
 
