@@ -1,8 +1,9 @@
 
 object rochensen {
 
-method dejarPasar(persona){
+method dejarPasar(persona,pista){
 	if(persona.mayor()){
+		pista.personas().add(persona)
 		return "dale pasa"
 		}
 	else {
@@ -13,8 +14,9 @@ method dejarPasar(persona){
 
 object rodrigsen {
 
-method dejarPasar(persona){
+method dejarPasar(persona,pista){
 	if(persona.color() == 'negro'){
+		pista.personas().add(persona)
 		return "dale pasa"
 		}
 	else {

@@ -37,10 +37,10 @@ object biarker{
 		return color
 	}
 	
-			method energia(){
+	method energia(){
 		return energia
 	}
-		method mayor(){
+	method mayor(){
 		return true
 	}
 
